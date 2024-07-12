@@ -63,13 +63,6 @@ a {
   }
 }
 
-.text {
-  display: flex;
-  position: relative;
-  justify-content: flex-end;
-  margin: 0 300px 0 0;
-}
-
 .container {
   margin: 0;
   padding: 0 16px;
@@ -97,6 +90,20 @@ a {
   }
   &.product {
     padding: 0 0 1.5rem 0;
+    h2 {
+      display: flex;
+      position: relative;
+      justify-content: flex-end;
+      margin: 0 0 0 0;
+      margin: 0 300px 0 0;
+      align-items: center;
+    }
+    p { 
+      display: flex;
+      position: relative;
+      justify-content: flex-end;
+      margin: 0 0 0 0;
+    }
   }
 }
 
@@ -128,21 +135,21 @@ a {
 .assessment {
   display: flex;
   margin: 0 0 0 0;
-  flex-direction:row-reverse;
+  flex-direction: row-reverse;
   padding-top: 9px;
 }
 
 .assessment ul {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    justify-content: end;
-    color: #aca4a4;
-    list-style: none;
-    li {
-      font-size: 18px;
-      margin: 0 12px 0 0;
-    }
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: end;
+  color: #aca4a4;
+  list-style: none;
+  li {
+    font-size: 18px;
+    margin: 0 12px 0 0;
+  }
 }
 
 .assessment button {
@@ -176,4 +183,16 @@ button:nth-child(4):hover ~ button {
 button:nth-child(5):hover ~ button {
   color: var(--color-hover);
   transform: rotate(360deg);
+}
+
+
+
+img {
+  height: 10rem;
+  width: 100%;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+  }
 }

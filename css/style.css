@@ -34,3 +34,11 @@ ul {
     }
   }
 }
+
+.container{
+    margin: 0;
+    padding:  0 16px;
+    max-width: 1200px;
+    width: 100%;
+    
+}

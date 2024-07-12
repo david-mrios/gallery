@@ -90,7 +90,7 @@ a {
   }
   &.product {
     padding: 0 0 1.5rem 0;
-    h2 {
+    /* h2 {
       display: flex;
       position: relative;
       justify-content: flex-end;
@@ -103,7 +103,7 @@ a {
       position: relative;
       justify-content: flex-end;
       margin: 0 0 0 0;
-    }
+    } */
   }
 }
 
@@ -195,4 +195,28 @@ img {
   &:hover {
     opacity: 0.7;
   }
+}
+
+
+
+/* Create two equal columns that floats next to each other */
+.column-img {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column-text {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }

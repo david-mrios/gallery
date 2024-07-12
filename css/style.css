@@ -39,6 +39,22 @@ strong{
 }
 
 
+a {
+  color: gray;
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+  &:active{
+    color: gray
+  }
+}
+
+
+
+
+
+
 ul {
   margin: 0;
   padding: 0;

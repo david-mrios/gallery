@@ -67,7 +67,7 @@ a {
   display: flex;
   position: relative;
   justify-content: flex-end;
-  margin: 0 260px 0 0;
+  margin: 0 300px 0 0;
 }
 
 .container {
@@ -127,10 +127,24 @@ a {
 }
 .assessment {
   display: flex;
+  margin: 0 0 0 0;
   flex-direction:row-reverse;
-  margin: 0 250px 0 0;
   padding-top: 9px;
 }
+
+.assessment ul {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: end;
+    color: #aca4a4;
+    list-style: none;
+    li {
+      font-size: 18px;
+      margin: 0 12px 0 0;
+    }
+}
+
 .assessment button {
   background-color: initial;
   border: 0;

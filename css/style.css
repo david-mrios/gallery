@@ -18,6 +18,26 @@ body {
   }
 }
 
+span{
+  box-sizing: border-box;
+  position: relative;
+  box-shadow: 0px 5px 3px 0px black; /* Cambié el valor para hacer la sombra más visible */
+}
+span:after{
+  display: block;
+  position: absolute;
+  width: 100%;
+  content: "";
+  border-bottom: 1px solid black;
+  padding: 0 0 .4em 2em;  
+  left: -0.7em;
+  animation: 3s ease-out 0s slideInFromLeft
+}
+strong{
+  font-weight: 800;
+  -webkit-text-stroke: 1px black;
+}
+
 
 ul {
   margin: 0;

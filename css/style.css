@@ -21,8 +21,8 @@ body {
 span{
   box-sizing: border-box;
   position: relative;
-  box-shadow: 0px 5px 3px 0px black; /* Cambié el valor para hacer la sombra más visible */
-}
+  box-shadow: 0px 5px 3px 0px black; 
+} 
 span:after{
   display: block;
   position: absolute;
@@ -51,20 +51,6 @@ a {
 }
 
 
-
-
-
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
-  li {
-    margin: 0 16px 0 0;
-  }
-}
-
 .flex-nav {
   display: block;
   ul {
@@ -72,12 +58,24 @@ ul {
     flex-direction: row;
     position: relative;
     justify-content: flex-end;
+    list-style: none;
     li {
         font-size: 18px;
         margin: 0 16px 0 0;
     }
   }
 }
+
+
+nav {
+  display: block;
+  li{
+    font-size: 1.125rem;
+    margin: 43rem;
+  }
+}
+
+
 
 .container{
     margin: 0;

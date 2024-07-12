@@ -89,7 +89,6 @@ a {
   }
 }
 
-
 .nav-list {
   display: flex;
   flex-direction: row;
@@ -105,8 +104,9 @@ a {
 .nav-item {
   &::before {
     content: "/";
-    display:  inline-block;
+    display: inline-block;
     padding: 0 5px;
-    color: white
+    color: #aca4a4;
   }
 }
+

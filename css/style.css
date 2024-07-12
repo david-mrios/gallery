@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+
+body{
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    color: #aca4a4;
+    background: #fff;
+    text-rendering: optimizeLegibility;
+}
+

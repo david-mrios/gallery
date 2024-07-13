@@ -105,13 +105,11 @@ a {
   }
 }
 
-.nav-item {
-  &::before {
-    content: "/";
-    display: inline-block;
-    padding: 0 5px;
-    color: #aca4a4;
-  }
+.nav-item::before {
+  content: "/";
+  display: inline-block;
+  padding: 0 5px;
+  color: #aca4a4;
 }
 
 :root {
@@ -173,15 +171,15 @@ button:nth-child(5):hover ~ button {
 
 .column-img {
   display: block;
-  flex: 3;
-  padding: 10px;
-  margin: 10px;
-}
+    flex: 3;
+    padding: 10px;
+    margin: 10px;
+  }
 
-.column-text {
-  flex: 3;
-  padding: 10px;
-  margin: 10px;
+  .column-text {
+    flex: 3;
+    padding: 10px;
+    margin: 10px;
 }
 
 .row {
@@ -222,7 +220,7 @@ h2 {
   margin: 0;
 }
 
-#lorem {
+#justify {
   text-align: justify;
 }
 

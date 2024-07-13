@@ -14,9 +14,10 @@ README.md
 ## Uso
 
 1. Clona el repositorio o descarga los archivos:
+
    ```sh
    git clone https://github.com/david-mrios/gallery.git
    ```
-2. Abre `index.html` en tu navegador.
+3. Abre `index.html` en tu navegador.
 
 ---
